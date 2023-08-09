@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flex-column-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.spinner{
+  animation: rotation 6s infinite linear;
+}
+
+.spinner img{
+  width: 300px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
